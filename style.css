@@ -1,0 +1,19 @@
+h1 {
+    color: palevioletred;
+    background-color: purple;
+  }
+ 
+  
+  #paragraph {
+    text-align: center;
+    color: rosybrown;
+    background-color: slateblue;
+  }
+  
+  .list-item {
+    background-color: rgb(148, 56, 56);
+  }
+  ol {
+      color: salmon;
+      background-color: snow;
+  }
