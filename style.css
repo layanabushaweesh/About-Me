@@ -1,6 +1,7 @@
 h1 {
     color: palevioletred;
     background-color: purple;
+    text-align: center;
   }
  
   
@@ -16,4 +17,6 @@ h1 {
   ol {
       color: salmon;
       background-color: snow;
+      text-align: left;
+      
   }
