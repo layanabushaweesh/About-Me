@@ -9,6 +9,7 @@ function question1 () {
   let color = prompt(' my favorite color is pink ?');
   if (color.toLowerCase() === 'yes' || color.toLowerCase() === 'y') {
     alert('that it\'s right');
+    score++;
   // console.log( 'that it\'s right'  );
   }
   else if (color.toLowerCase() === 'no' || color.toLowerCase() === 'n') {
@@ -28,6 +29,7 @@ function question2() {
 
   if (age.toLowerCase() === 'yes' || age.toLowerCase() === 'y') {
     alert('that it\'s right');
+    score++;
   //console.log( 'that it\'s right'  );
   }
   else if (age.toLowerCase() === 'no' || age.toLowerCase() === 'n') {
@@ -47,6 +49,7 @@ function question3() {
   let namee = prompt(' my name is layan ?');
   if (namee.toLowerCase() === 'yes' || namee.toLowerCase() === 'y') {
     alert('that it\'s right');
+    score++;
   //console.log( 'that it\'s right'  );
   }
   else if (namee.toLowerCase() === 'no' || namee.toLowerCase() === 'n') {
@@ -65,6 +68,7 @@ function question4() {
 
   if (dadName.toLowerCase() === 'yes' || dadName.toLowerCase() === 'y') {
     alert('that it\'s right');
+    score++;
   //console.log( 'that it\'s right'  );
   }
   else if (dadName.toLowerCase() === 'no' || dadName.toLowerCase() === 'n') {
@@ -78,6 +82,7 @@ function question4() {
   let mumName = prompt(' my mum name is lina ?');
   if (mumName.toLowerCase() === 'yes' || mumName.toLowerCase() === 'y') {
     alert('that it\'s right');
+    score++;
   //console.log( 'that it\'s right'  );
   }
   else if (mumName.toLowerCase() === 'no' || mumName.toLowerCase() === 'n') {
