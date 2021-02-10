@@ -78,7 +78,12 @@ function question4() {
   else {
     alert(' please answer yes or no');
   }
-  //Q5
+}
+question4 ();
+//Q5
+function question5() {
+
+
   let mumName = prompt(' my mum name is lina ?');
   if (mumName.toLowerCase() === 'yes' || mumName.toLowerCase() === 'y') {
     alert('that it\'s right');
@@ -94,7 +99,7 @@ function question4() {
 
   }
 }
-question4 ();
+question5 ();
 
 
 //Q6
