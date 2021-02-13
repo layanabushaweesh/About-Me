@@ -1,6 +1,6 @@
-h1 {
+/*h1 {
     color: palevioletred;
-    background-color: purple;
+    background-color:rgb(211, 97, 141);
     text-align: center;
   }
  
@@ -8,7 +8,7 @@ h1 {
   #paragraph {
     text-align: center;
     color: rosybrown;
-    background-color: slateblue;
+    background-image: url('./image/flower.jpg') ;
   }
   
   .list-item {

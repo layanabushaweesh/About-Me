@@ -20,11 +20,11 @@ else {
 //Q2
 let age = prompt(' my age is 25?');
 
-if (age.toLowerCase() === 'yes' || color.toLowerCase() === 'y') {
+if (age.toLowerCase() === 'yes' || age.toLowerCase() === 'y') {
   alert('that it\'s right');
   //console.log( 'that it\'s right'  );
 }
-else if (age.toLowerCase() === 'no' || color.toLowerCase() === 'n') {
+else if (age.toLowerCase() === 'no' || age.toLowerCase() === 'n') {
   alert(' that it\'s wrong');
   //console.log ( ' that it\'s wrong'  );
 }
@@ -33,11 +33,11 @@ else {
 }
 //Q3
 let name = prompt(' my name is layan ?');
-if (name.toLowerCase() === 'yes' || color.toLowerCase() === 'y') {
+if (name.toLowerCase() === 'yes' || name.toLowerCase() === 'y') {
   alert('that it\'s right');
   //console.log( 'that it\'s right'  );
 }
-else if (name.toLowerCase() === 'no' || color.toLowerCase() === 'n') {
+else if (name.toLowerCase() === 'no' || name.toLowerCase() === 'n') {
   alert(' that it\'s wrong');
   //console.log ( ' that it\'s wrong'  );
 }
@@ -46,11 +46,11 @@ else {
 }
 //Q4
 let dadName = prompt(' my dad name is jamil ?');
-if (dadName.toLowerCase() === 'yes' || color.toLowerCase() === 'y') {
+if (dadName.toLowerCase() === 'yes' || dadName.toLowerCase() === 'y') {
   alert('that it\'s right');
   //console.log( 'that it\'s right'  );
 }
-else if (dadName.toLowerCase() === 'no' || color.toLowerCase() === 'n') {
+else if (dadName.toLowerCase() === 'no' || dadName.toLowerCase() === 'n') {
   alert(' that it\'s wrong');
   // console.log ( ' that it\'s wrong'  );
 }
@@ -59,11 +59,11 @@ else {
 }
 //Q5
 let mumName = prompt(' my mum name is lina ?');
-if (mumName.toLowerCase() === 'yes' || color.toLowerCase() === 'y') {
+if (mumName.toLowerCase() === 'yes' || mumName.toLowerCase() === 'y') {
   alert('that it\'s right');
   //console.log( 'that it\'s right'  );
 }
-else if (mumName.toLowerCase() === 'no' || color.toLowerCase() === 'n') {
+else if (mumName.toLowerCase() === 'no' || mumName.toLowerCase() === 'n') {
   alert(' that it\'s wrong');
   //console.log ( ' that it\'s wrong'  );
 }
@@ -75,6 +75,7 @@ else {
 //Q6
 function guessFavNumber() {
   var counter = 1;
+  let score;
   if (counter === 5) {
       alert('Sorry you run out of guesses');
   }
