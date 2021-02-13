@@ -100,7 +100,7 @@ guessFavNumber();
 
 
 // Question 7
-
+let score ;
 function questionSeven() {
   var userFavFruit = ['apple', 'strawberry', 'orange', 'grape', 'watermelon'];
 
